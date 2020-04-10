@@ -1,14 +1,36 @@
-# Legacy Code Mailboxer 2020
+# The Legacy Code challenge [wip]
+## About the Legacy Code challenge
+This is a BootCamp challenge provided by [Craft Academy](https://www.craftacademy.se/english/) that aims to further enhance your knowledge in Rails. The "client" has an unmaintained message- app that they would like us to bring back to life. Our team have therefore been tasked with testing the code base in order to find and fix bugs and poorly maintained functionality.
 
-![Mailboxer](mailboxer01.jpg)
+## Installments
+If you'd like to try and fix the app yourself you're free to help us out. You'll need to fork [This](https://github.com/CraftAcademy/legacy_team4_2020) Repo and install:
 
-### **Pair Programmer Team 4**
-| Jaime Cruz | Philip Gaunitz | Anish Kanswal | Karolina Frostare |
+[Ruby on Rails](rubymonstas.org)
+```
+gem install rails
+```
+[Bundler](https://bundler.io/) Gems
+```
+bundle install
+```
+[Rspec](rspec.info)
+```
+rspec-rails
+```
+#### Deployment
+| [Coveralls](https://coveralls.io/) | [Semaphore](https://semaphoreci.com/) | [Heroku](https://www.heroku.com/) |
 
-### Code overview (Testing phase)
-The client has an unmaintained message- app that they would like us to bring back to life. Team4 have therefore been tasked with testing the code base in order to find and fix bugs and poorly maintained functionality. 
+### Authors & Acknowledgements
+##### Authors
+| [Jaime Cruz](https://github.com/JaimeCrz) | [Philip Gaunitz](https://github.com/pgaunitz) | [Anish Kanswal](https://github.com/Anish2504) | [Karolina Frostare](https://github.com/kfrostare) |
 
-We are currently testing the code base with the goal of deploying it to a staging server and a working state where adding new features is possible. For the time being the following bullet points **in bold** have been tested, making sure that the user: 
+##### Acknowledgements
+The material has been provided by [Craft Academy](learn.craftacademy.co) <br>
+The app is created in [Ruby on Rails](rubymonstas.org) <br>
+The app is tested with [Rspec](rspec.info) <br>
+
+## Current state, updates and improvements
+The app is updated continuously and once it's finished it will look awesome. We are currently testing the code base with the goal of deploying it to a staging server and a working state where adding new features is possible. For the time being the following bullet points **in bold** have been tested, making sure that the user: 
 
 * **Can create an account**
 * **Can log in to their account**
@@ -24,17 +46,11 @@ We are currently testing the code base with the goal of deploying it to a stagin
 * Can create messages
 * Can restore deleted messages
 
-### Installments
-If you'd like to try and fix the app yourself you're free to help us out. You'll need to fork this Repo and download:
+### License
+MIT License
 
-* Rails
-> gem install rails
-* Gems
-> bundle install
-* Rspec
-> rspec-rails
+## Legacy Challenge User Stories
 
-### User stories
 *The app has been built with 13 requests in mind. These are the user stories of our client.*
 
 1. **Create an account** <br>
@@ -72,46 +88,27 @@ As a user<br>
 In order to communicate with my friends/family<br> 
 I want to be able to respond to their messages<br>
 
-8. **Can delete message**
+8. **Can delete message**<br> 
 As a user<br> 
 In order to keep my inbox clean<br> 
 I want the ability to delete messages<br>
 
-9. **Has a list of contacts**
+9. **Has a list of contacts**<br> 
 As a user<br> 
 In order to save time<br> 
 I want access to a list of my contacts<br>
 
-10. **Can send messages**
+10. **Can send messages**<br> 
 As a user<br> 
 In order to communicate with my friends/family<br> 
 I want the ability to send messages<br>
 
-11. **Can create messages**
+11. **Can create messages**<br> 
 As a user<br> 
 In order to send/reply a message<br> 
 I need to be able to create a message<br>
 
-12. **Can restore deleted messages**
+12. **Can restore deleted messages**<br> 
 As a user<br> 
 In order to restore wrongfully deleted messages<br> 
-I want the ability to move them from the trash back to the inbox<br>
-
-### Dependencies
-| Rspec | Pry-ByeBug | [Coveralls](https://coveralls.io/) | [Semaphore](https://coveralls.io/) | [Heroku](http://heroku.com/) |
-
-### Setup
-To access this code visit [GitHub](https://github.com/CraftAcademy/legacy_team4_2020)
-
-### Instructions
-
-### Acknowledgements
-The material has been provided by [Craft Academy](learn.craftacademy.co) <br>
-The app is being created in [Ruby on Rails](rubymonstas.org) <br>
-The app is being tested in [Rspec](rspec.info) <br>
-
-### Updates/Improvement Plans
-The app is updated continuously and once it's finished it will look awesome.
-
-### License
-MIT License
+I want the ability to move them from the trash back to the inbox
